@@ -11,6 +11,8 @@ You are given a fake api response that is being exported from `api.js`. The resp
 - When a User clicks on the "Bark" button it should render an `<h2>` to the screen with an innerText of "Bark"
 - When a User clicks on the button a second time the `<h2>` should be removed from the DOM
 
+- For an easy assessment, add a favorites container that holds a list of favorited dogs
+
 - You can run `npm run test` to test your code but should use both TDD and BDD to verify functionality
 - You can run `npm run submit` to save and push your work to github
 

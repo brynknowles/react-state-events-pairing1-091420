@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import DogsList from './Containers/DogsList'
+// import Favorites from './Containers/Favorites'
 
 // App is the top level component
 // App component's job is to render the DogsList
@@ -9,6 +10,7 @@ class App extends Component {
     return (
       <div className="app">
         <DogsList />
+        {/* <Favorites /> */}
       </div>
     );
   }

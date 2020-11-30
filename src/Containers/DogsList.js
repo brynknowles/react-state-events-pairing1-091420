@@ -12,7 +12,12 @@ class DogsList extends React.Component {
   }
 
   render() {
-    return <div className="list">{this.renderDogs()}</div>;
+    return (
+      <div className="list">
+        <h1>Index</h1>
+        {this.renderDogs()}
+      </div>
+    )
   }
 
 }

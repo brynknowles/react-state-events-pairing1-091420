@@ -20,7 +20,8 @@ const apiResponse = [
     {
         "id": 4,
         "name": "Ozzy Pawsborne",
-        "img": "https://minepuppy.com/wp-content/uploads/2018/02/Doberman-breed-brown-minepuppy.jpg",
+        // "img": "https://minepuppy.com/wp-content/uploads/2018/02/Doberman-breed-brown-minepuppy.jpg",
+        "img": "https://i.pinimg.com/originals/a0/8e/18/a08e18503a66ed09de6949e139491574.jpg",
         "breed": "Doberman"
     }
 ]

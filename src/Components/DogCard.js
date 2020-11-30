@@ -14,8 +14,13 @@ class DogCard extends React.Component {
     this.setState({clicked: !this.state.clicked})
   }
 
+  // faveHandler = () => {
+  //   console.log('favorited dog', this.props)
+  // }
+
   render() {
     return (
+      // <div className="card" onClick={this.faveHandler}>
       <div className="card">
         <span className="content">
           <h2 >{this.props.dog.name}</h2>
