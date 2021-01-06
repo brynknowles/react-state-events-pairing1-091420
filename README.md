@@ -1,6 +1,6 @@
 # React State and Events - Async
 
-## Instructions
+<!-- ## Instructions
 
 - To get started you must have `JSON Server` installed
 
@@ -10,17 +10,17 @@
 
   - `json-server -w db.json`
 
-- After mounting the server, you will have an api available at `http://localhost:8000/dogs`
+- After mounting the server, you will have an api available at `http://localhost:8000/dogs` -->
 
 ## Deliverables
 
 You are given a component called `DogCard`, a container component called `DogsList`, an `App` component
 
-1. Your application render a list of dog images along with a button for each image that has an `innerText` of "Bark"
+<!-- 1. Your application render a list of dog images along with a button for each image that has an `innerText` of "Bark" -->
+<!-- 
+2. When a User clicks on the "Bark" button it should render an `<h2>` to the screen with an innerText of "Bark" -->
 
-2. When a User clicks on the "Bark" button it should render an `<h2>` to the screen with an innerText of "Bark"
-
-3. When a User clicks on the button a second time the `<h2>` should be removed from the DOM
+<!-- 3. When a User clicks on the button a second time the `<h2>` should be removed from the DOM -->
 
 4. Add a `BarkCounter` that is a child of `App` and is displayed at the top of the DOM. This should be a counter that increments every time a dog barks
 
